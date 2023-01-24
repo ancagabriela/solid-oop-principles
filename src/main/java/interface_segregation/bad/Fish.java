@@ -1,19 +1,9 @@
 package interface_segregation.bad;
 
-public class Fish implements Animal{
+public class Fish implements SwimmableAnimal {
     @Override
     public String nameOfAnimal() {
         return "fish";
-    }
-
-    @Override
-    public String walk() {
-        return null;
-    }
-
-    @Override
-    public String fly() {
-        return null;
     }
 
     @Override
